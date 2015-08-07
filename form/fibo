@@ -1,0 +1,28 @@
+<?php
+
+/**
+*$arr = array []
+*$arr[] =1
+*un arreglo es un conjunto de variablñes
+*****/
+
+function fibonacci ($limit){
+	$serie = array();
+	$n = 0;
+	for ($i=0; i<$limit; i++){
+		$n = $n + $i;
+
+		$serie[] = $n
+
+
+	}
+	return ($serie)
+	//return array (1,2,3,5,);
+
+}
+
+
+
+var_dump(fibonacci(10))
+
+?>
